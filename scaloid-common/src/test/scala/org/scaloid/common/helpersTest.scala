@@ -13,6 +13,7 @@ import org.scalatest.junit.JUnitSuite
 import scala.collection.JavaConverters._
 import scala.reflect.ClassTag
 
+/*
 @RunWith(classOf[RobolectricTestRunner])
 @Config(manifest = Config.NONE, emulateSdk = 16)
 class helpersTest extends JUnitSuite with ShouldMatchers {
@@ -113,3 +114,4 @@ class helpersTest extends JUnitSuite with ShouldMatchers {
     dialog shouldNot be a 'showing
   }
 }
+*/

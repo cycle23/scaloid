@@ -11050,7 +11050,7 @@ trait TraitWebView[This <: android.webkit.WebView] extends TraitAbsoluteLayout[T
   /**
    * Shortcut for `[[https://developer.android.com/reference/android/webkit/WebView.html#getVisibleTitleHeight() getVisibleTitleHeight()]]`
    */
-  @deprecated("", "") @inline def visibleTitleHeight = basis.getVisibleTitleHeight
+  //@deprecated("", "") @inline def visibleTitleHeight = basis.getVisibleTitleHeight
 
   @inline def webChromeClient(implicit no: NoGetterForThisProperty): Nothing = throw new Error("Android does not support the getter for 'webChromeClient'")
 
